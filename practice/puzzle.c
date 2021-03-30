@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <termio.h>
 #include <string.h>
+#include <unistd.h>
 #include <time.h>
 int getch(void) {
     int ch;
